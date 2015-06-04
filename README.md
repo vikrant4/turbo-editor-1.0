@@ -1,3 +1,4 @@
+Follwing is the README.md of the original turbo-editor-1.0 by [Vlad Mihalachi][developer site]
 # Turbo Editor
 Simple, powerful and Open Source file editor for Android.
 
