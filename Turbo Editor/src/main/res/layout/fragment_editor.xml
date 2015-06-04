@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2013 Vlad Mihalachi
+  ~
+  ~ This file is part of Turbo Editor.
+  ~
+  ~ Turbo Editor is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Turbo Editor is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Turbo Editor. If not, see <http://www.gnu.org/licenses/>.
+  -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.vmihalachi.turboeditor.Output$PlaceholderFragment">
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="3"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <view
+            class="com.vmihalachi.turboeditor.fragment.EditorFragment$Editor"
+            android:id="@id/editor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:bufferType="normal"
+            android:gravity="top|left"
+            android:imeOptions="actionDone|flagNoFullscreen"
+            android:inputType="textMultiLine|textImeMultiLine|textNoSuggestions"
+            android:maxLength="@integer/editor_max_file_size"
+            android:singleLine="false"
+            android:text="@null"
+            android:textSize="@dimen/text_size_editor" />
+
+    </ScrollView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:layout_weight="1"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/text_size_editor"
+        android:gravity="top|left"
+        android:inputType="textMultiLine|textImeMultiLine|textNoSuggestions"
+        android:hint="@string/input_text"
+        android:singleLine="false"
+        />
+</ScrollView>
+</LinearLayout>

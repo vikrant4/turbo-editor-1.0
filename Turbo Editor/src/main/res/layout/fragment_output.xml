@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.vmihalachi.turboeditor.Output$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/output_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="@dimen/text_size_editor"
+        android:background="@null"
+        android:bufferType="normal"
+        android:gravity="top|left"
+        android:layout_weight="10"/>
+
+    <TextView
+        android:id="@+id/output_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:bufferType="normal"
+        android:background="@null"
+        android:gravity="top|left"/>
+
+</LinearLayout>
