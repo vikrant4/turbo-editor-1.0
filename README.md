@@ -1,4 +1,9 @@
-Follwing is the README.md of the original turbo-editor-1.0 by [Vlad Mihalachi][developer site]
+I made this application as a small part of another project. This application is an extension 
+to another open source android application made by [Vlad Mihalachi][developer site] and now 
+is able to compile and run programs using HackerEarth API.
+
+------
+
 # Turbo Editor
 Simple, powerful and Open Source file editor for Android.
 
