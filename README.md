@@ -1,6 +1,7 @@
-I made this application as a small part of another project. This application is an extension 
-to another open source android application made by [Vlad Mihalachi][developer site] and now 
-is able to compile and run programs using HackerEarth API.
+I along with [Govind Gupta](https://github.com/govindgupta)made this application as a small
+part of another project. This application is an extension to another open source android 
+application made by [Vlad Mihalachi][developer site] and now is able to compile and run 
+programs using [HackerEarth API](https://www.hackerearth.com/docs/api/developers/code/legacy/).
 
 ------
 
